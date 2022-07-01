@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import './variables/mixins';
+@import './variables/extend';
+@import './variables/navbar';
+@import './variables/paginas';
+@import './variables/textos';
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+}

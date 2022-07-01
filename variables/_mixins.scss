@@ -1,0 +1,7 @@
+@mixin btn($colorFondo, $colorHover) {
+    background-color: $colorFondo;
+    color: #FFFFFF;
+    hover {
+      background-color: $colorHover;
+    }
+  }
